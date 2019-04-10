@@ -1,0 +1,15 @@
+package jUnitTestingTjUnitTestingT;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ddd {
+
+	@Test
+	void test() {
+		LAB jtest =new LAB();
+		int result= jtest.addnumbers(80, 70);
+		assertEquals(150,result);
+		}
+	}

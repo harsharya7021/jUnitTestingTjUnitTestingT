@@ -1,0 +1,14 @@
+package jUnitTestingTjUnitTestingT;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class testAddString {
+	void test() {
+		LAB teststring=new LAB();
+		String result=teststring.addStrings("Harsh", "ARYA");
+		assertEquals("HarshARYA",result);
+		}
+	
+}
